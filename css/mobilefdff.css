@@ -1,0 +1,163 @@
+* { 
+/*
+        box-sizing: border-box;
+        border: 1px solid #aaa;
+*/
+    font-size: 100%;
+    font-family: 'Indie Flower', cursive;
+}
+title{
+    display: none;
+}
+body{  
+    border-bottom: .5em solid #00C0FF;   
+    background: linear-gradient(to bottom, #555555 0%, #ffffff 100%) repeat;
+    height: 100%;
+}
+.container{
+    margin:0 auto;
+    width: 80%;
+}
+.link{
+    text-decoration: none;
+    color: fuchsia;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+/*start navbar----------------------------------------*/
+.navbar{
+    /*background-color: #00C0FF;*/
+    overflow: hidden;
+}
+.button {
+    
+    float: left;
+    border-top: solid .3em #303A3D;
+    text-align: center;
+    align-items: center;
+    width: 11.5%;
+    margin: 0 0.5% ;
+    padding: .3em    0;
+}
+.button a{
+    text-transform: capitalize;
+    color: #00C0FF ;
+    text-decoration:none;
+}
+.button:hover , .button:focus {
+    color: #303A3D;
+    border-top: solid .3em #00C0FF;  
+    padding-top: .3em;
+}
+
+/*end of navbar----------------------------------------------*/
+.header{
+    margin-top: 1.8em;
+    overflow: hidden;
+    
+}
+.name_and_info{
+    float: left;
+    width: 60%;
+    height: auto;
+    overflow: hidden;
+
+}
+.name {
+    font-size: 9em;
+    letter-spacing: 0;
+    line-height: .7em;
+    font-variant:small-caps;
+}
+
+.info{
+    margin: 0 1em;
+    font-size: 1.4em;
+    line-height: 1.4em;
+    width: auto;
+    height: auto;
+
+    
+}
+.photo{
+    overflow: hidden;
+    width:25%;
+    height: 100%;
+    float: right;
+    margin: 3em 0 ;
+}
+/*end of header---------------------*/
+
+
+
+
+/*start footer----------------------------*/
+.footer{
+    overflow: hidden;   
+}
+.connect{
+    margin-top: 1em;
+    padding:1em;
+    width: 30%;
+    float: left;
+    border-left: .3em solid #00C0FF;
+} 
+.connect p{
+    padding:  0;
+    margin: 0 auto;
+    color: #00C0FF;
+    font-size: 400%;
+    text-transform: uppercase;
+}
+
+.links{
+    float: right;
+    width: 60%;
+}
+.links ul {
+    float: right;
+    list-style: none;
+    margin: 0 0;
+    padding: 0 0;
+}
+.links ul li {
+    width: 40%;
+    height: 4.5em;
+    font-size: 1.3em;
+    border-left: solid .3em #00C0FF;
+    padding-top: 3%;
+    margin-top: 5%;
+    float: left;
+    text-align: left;
+}
+.links ul li i{
+    padding: .3em .5em ;
+    text-align: center;
+}
+.links ul li i:hover {
+    color: #00C0FF;
+
+}
+.links ul li a{
+    color: black;
+}
+.links ul li a:hover{
+    color: #00C0FF;
+}
+
+
+
+
+/*copyrights - - - - - - - - - -*/
+.cp {
+    color: wheat;
+    margin-top: 5em;
+    background-color: #303A3D;
+    overflow: hidden;
+    text-align: right;
+}   
+#heart{
+    color: red;
+    font-size: 1.5em;
+}
